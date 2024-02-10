@@ -1,2 +1,3 @@
-const addArrow = getUserNames => users;
-return Names;
+const getUserNames = (users) => { 
+return users.map(user => user.name);
+}
